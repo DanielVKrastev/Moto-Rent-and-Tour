@@ -1,0 +1,286 @@
+/* 
+    Author: Daniel Krastev;
+    Thema: Moto Rent & Tour;
+    version: 1.0;
+*/
+
+/* CSS for all*/
+
+
+
+/**************************************************************/
+.reservation-2-boxs{
+    padding-bottom: 20px;
+    height: auto;
+    margin: 0;
+    position: relative;
+}
+
+.reservation-data-left,
+.reservation-checkout-right{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+/* CSS for reservation left-box */
+.reservation-data-left{
+    margin: 2% 1% 2% 8%;
+    width: 50%;
+   /* box-shadow: 0px 1px 15px 3px #9f9f9f; */
+}
+
+.reservation-data-left h2{
+    color: black;
+}
+
+.reservation-data-left h3{
+    font-style: oblique;
+    color: #DB3C48;
+    font-size: 14px;
+}
+
+.reservation-driver-section,
+.terms-section{
+    margin-bottom: 15px;
+}
+.terms-section{
+    margin-top: 15px;
+}
+
+.input-reservation-box{
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+
+.input-reservation-box label{
+    color: grey;
+    font-style: italic;
+}
+
+.input-reservation-box input[type=text],
+.input-reservation-box input[type=date],
+.input-reservation-box select{
+    width: 250px;
+    padding: 6px;
+    margin-top: 4px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.terms-section .terms-box{
+    margin: 10px 0 10px 0;
+}
+
+.terms-box input[type=checkbox]{
+    margin-top: 5px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.terms-box .terms-checkbox,
+.terms-box .terms-text{
+    display: inline-block;
+}
+.terms-text{
+    margin-left: 10px;
+    width: 85%;
+}
+
+.terms-checkbox{
+    width: 5%;
+    vertical-align: top;
+}
+
+/* CSS for reservation right-box */
+.reservation-checkout-right{
+    width: 340px;
+    margin: 2% 0 0 1%;
+    box-shadow: 0px 1px 15px 3px #9f9f9f;
+}
+
+.reservation-checkout-right img{
+    width: 180px;
+}
+
+.checkout-2-boxs{
+    margin: 10px 0 10px 0;
+    background-color: #fbfbfb;
+    border-radius: 10px;
+}
+
+.checkout-2-boxs .start-date-rent,
+.checkout-2-boxs .end-date-rent{
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+    text-align: left;
+    font-style: italic;
+    display: inline-block;
+}
+
+.start-date-rent img,
+.end-date-rent img{
+    width: 20px;
+}
+
+.checkout-2-boxs .description,
+.checkout-2-boxs .checkout-prices{
+    padding: 5px 0px 5px 0px;
+    display: inline-block;
+}
+
+.checkout-2-boxs .description{
+    width: 70%;
+    text-align: left;
+}
+.checkout-2-boxs .checkout-prices{
+    width: 27%;
+    text-align: right;
+}
+
+.description .desc-header,
+.checkout-prices .price-header {
+    color: #303030;
+    margin: 8px 0 5px 0;
+}
+
+.description .desc-sub,
+.checkout-prices .price-sub{
+    border-bottom: 1px solid #dbdbdb;
+    color: grey;
+    font-size: 13px;
+    margin: 5px 0 5px 10px;
+}
+
+.checkout-2-boxs .pay-now,
+.checkout-2-boxs .pay-onsite{
+    width: 45%;
+    display: inline-block;
+    color: #303030;
+    font-style: oblique;
+}
+.pay-now p,
+.pay-onsite p{
+    color: #505050;
+}
+
+.pay-button input[type='submit'],
+.pay-button-mobile button,
+.close-button .button{
+    background-color: #ff828b;
+    border: 3px solid #ffa1a8;
+    margin: 2px;
+    padding: 10px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pay-button input[type='submit']:hover,
+.pay-button-mobile button:hover,
+.close-button .button:hover{
+    background-color: #ff5c67;
+}
+
+.close-button{
+    display: none;
+}
+
+.close-button .button{
+    margin: 0 auto;
+    background-color: #DB3C48;
+    border: 3px solid #d61e2d;
+}
+
+.pay-button-mobile{
+    margin-left: 10%;
+}
+
+.buttons-mobile{
+    background-color: white;
+    box-shadow: 5px -5px 25px -5px #9f9f9f;
+    width: 100%;
+    margin: 0 auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    display: none;
+ }
+
+.more-button{
+    font-style: italic;
+    color: #505050;
+    padding: 5px;
+    width: 130px;
+    margin: 0 auto;
+    float: right;
+}
+
+.more-button img{
+    width: 20px;
+}
+
+/***************************MOBILE************************/
+@media only screen and (max-width:1080px),
+            screen and (max-height: 640px){
+    .reservation-data-left{
+        width: 85%;
+        margin: 10px;
+        box-shadow: none;
+    }
+
+    .input-reservation-box{
+        width: 280px
+    }
+
+    .reservation-checkout-right{
+        display: none;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+        z-index: 1;
+    }
+
+    .pay-button{
+        display: none;
+    }
+
+    .close-button{
+        display: block;
+    }
+
+    .buttons-mobile{
+        display: inline-block;
+    }
+
+    .reservation-2-boxs{
+        padding-bottom: 0px;
+    }
+}
+@media only screen and (max-width:1080px),
+            screen and (max-height: 640px){
+.reservation-2-boxs{
+    background-color: white;
+}
+}
+
+@media only screen and (max-width:370px){
+    .input-reservation-box input[type=text],
+    .input-reservation-box input[type=date],
+    .input-reservation-box select,
+    .input-reservation-box{
+    width: 200px;
+}
+}

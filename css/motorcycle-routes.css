@@ -1,0 +1,359 @@
+/*******************/
+.page-2-boxs {
+    height: auto;
+    margin: 0;
+}
+
+.page-box-left,
+.page-box-right,
+.page-box-right-mobile {
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.page-box-left {
+    margin: 2% 0% 2% 8%;
+    width: 55%;
+}
+
+.page-box-right,
+.page-box-right-mobile {
+    width: 22%;
+    margin: 1%;
+    bottom: 10%;
+    height: 480px;
+    box-shadow: 0px 1px 15px 3px #9f9f9f;
+}
+
+.page-box-right .btn-close-box {
+    display: none;
+}
+
+/* for page-box mobile version for rent panel */
+.page-box-right-mobile {
+    width: 280px;
+    height: 70px;
+    padding: 5px 10px 5px 5px;
+    display: grid;
+    position: sticky;
+    margin: 0 auto;
+    bottom: 70px;
+    display: none;
+}
+
+.page-box-right-mobile .rent-for-days,
+.page-box-right-mobile .rent-price-sum {
+    width: 120px;
+}
+
+.page-box-right-mobile .rent-for-days {
+    font-size: 16px;
+}
+
+.page-box-right-mobile .rent-price-sum {
+    font-size: 24px;
+}
+
+/* for sticky page-box-right for scroll */
+.sticky,
+.page-box-right {
+    position: sticky;
+    z-index: 1;
+}
+
+#page-boxs-end {
+    height: 1px;
+    bottom: 0px;
+    position: relative;
+}
+
+/****************************************/
+/* FOR MOTORCYCLE BOX */
+/* for moto image */
+.moto-img {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.moto-img img {
+    width: 500px;
+}
+
+/* for moto title */
+.moto-title h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.moto-type h3 {
+    color: darkgrey;
+}
+
+/* for moto specification icons */
+.moto-specs {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.moto-specs-box,
+.moto-specs-icons,
+.moto-specs-text {
+    float: left;
+}
+
+.moto-specs-icons img {
+    width: 30px;
+}
+
+.moto-specs-text {
+    font-size: 13px;
+    margin: 10px 18px 10px 4px;
+}
+
+/* for section rent-moto */
+.page-box-right input,
+.mobile-motorcycle-box input {
+    width: 90%;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #9b9b9b;
+    color: #464646;
+    border-radius: 5px;
+}
+
+.rent-for-days,
+.rent-per-day,
+.rent-price-sum .rent-for-days-mobile,
+.rent-per-day-mobile,
+.rent-price-sum-mobile {
+    margin: 10px 0 10px 0;
+}
+
+.rent-for-days,
+.rent-for-days-mobile {
+    font-size: 22px;
+    color: #464646;
+}
+
+.rent-per-day,
+.rent-for-days-mobile {
+    font-size: 18px;
+    color: #9b9b9b;
+    font-stretch: condensed;
+}
+
+.rent-price-sum,
+.rent-price-sum-mobile {
+    color: #DB3C48;
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.start-rent,
+.end-rent,
+.start-rent-mobile,
+.end-rent-mobile {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.page-box-right p {
+    padding: 5px;
+    color: #585858;
+}
+
+.check-button,
+.next-button-mobile {
+    margin: 20px 0 20px 0;
+}
+
+.check-button button,
+.next-button-mobile button {
+    background-color: #ff828b;
+    padding: 10px;
+    width: 150px;
+    border: 3px solid #ffa1a8;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+}
+
+.check-button button:hover,
+.next-button-mobile button:hover {
+    background-color: #ff5864;
+}
+
+.next-button-mobile {
+    display: flex;
+    margin-top: -55px;
+    margin-left: 120px;
+}
+
+.more-rent,
+.more-rent-mobile {
+    color: green;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.more-rent img,
+.more-rent-mobile img {
+    width: 25px;
+    margin-bottom: -6px;
+}
+
+.btn-close-box {
+    position: absolute;
+}
+
+.btn-close-box img {
+    width: 35px;
+}
+
+/**************ROUTES PAGE******************/
+.img-header {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(65%);
+}
+
+.routes-2-boxs {
+    height: auto;
+    margin: 0;
+}
+
+.routes-box-left,
+.routes-box-right {
+    border: 1px solid green;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*************** css for ROUTES BOX LEFT *******************/
+.route-title h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.route-city h3 {
+    color: darkgrey;
+}
+
+/* for route specification icons */
+.route-specs {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.route-specs-box,
+.route-specs-icons,
+.route-specs-text {
+    float: left;
+}
+
+.route-specs-icons img {
+    width: 30px;
+}
+
+.route-specs-text {
+    font-size: 13px;
+    margin: 10px 18px 10px 4px;
+}
+
+/* for description for page-box-left - subtitle */
+.subtitle {
+    margin-top: 40px;
+}
+
+.subtitle h2 {
+    color: black;
+}
+
+.subtitle h3 {
+    color: #DB3C48;
+    font-size: 14px;
+}
+
+/* for description for routes - description */
+.desc-rent .description {
+    color: #333333;
+    padding: 15px 0 15px 0;
+}
+
+.description p {
+    text-indent: 30px;
+}
+
+.map img {
+    width: 100%;
+}
+
+/* for page-box-right */
+.rent-dates select {
+    margin: 10px 0 10px 0;
+    padding: 8px;
+    width: 280px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #585858;
+}
+
+/************************************************************/
+
+@media only screen and (max-width:1080px),
+screen and (max-height: 640px) {
+    .page-box-left {
+        margin: 2% 0% 2% 1%;
+        width: 85%;
+    }
+
+    .moto-img {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .moto-img img {
+        width: 300px;
+    }
+
+    .page-box-right {
+        display: none;
+    }
+
+    .page-box-right-mobile {
+        display: grid;
+    }
+
+    .page-box-right .btn-close-box {
+        display: grid;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+    div .container-moto-rent {
+        width: 205px;
+    }
+
+    .container-moto-rent .container-moto-rent-text {
+        margin: 0;
+    }
+
+    div .policy-box {
+        height: 80px;
+    }
+}

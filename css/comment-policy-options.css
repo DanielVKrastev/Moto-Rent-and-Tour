@@ -1,0 +1,177 @@
+/*for all*/
+h3{
+    font-style: oblique;
+}
+
+.container-moto-rent{
+    margin: 5px;
+    height: auto;
+    width: 355px;
+    float: left;
+}
+
+.container-moto-rent-icons,
+.container-moto-rent-text
+{
+    float: left;
+    margin: 8px;
+}
+
+.container-moto-rent-icons img{
+    width: 45px;
+}
+
+.container-moto-rent-text{
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.container-moto-rent-text b{
+    color: #DB3C48;
+}
+
+.container-moto-rent-text input {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+/* for subtitle for motorcycle/routes */
+.subtitle{
+    margin-top: 40px ;
+}
+
+.subtitle h2{
+    color: black;
+}
+
+.subtitle h3{
+    color: #DB3C48;
+    font-size: 14px;
+}
+
+/* for rental policy */
+.policy-box{
+    margin: 10px 0px 10px 0px;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.policy-box-icon,
+.policy-box-text{
+    float: left;
+    margin: 0 10px 0 10px ;
+}
+
+.policy-box-icon img{
+    width: 30px;
+}
+
+
+/* for include price moto section */
+/* for add-ons option*/
+/* for policy rental*/
+.include-price,
+.add-option,
+.policy-rent{
+    margin-bottom: 40px;
+}
+
+/* for comment boxs */
+.comment-box{
+    margin: 0;
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid grey;
+}
+
+.comment-box .comment-name{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.comment-box .comment-date{
+    font-size: 14px;
+    color: grey;
+    font-stretch: extra-condensed;
+    float: left;
+}
+
+.comment-box img{
+    width: 90px;
+}
+
+.comment-box .comment-rating{
+    margin-top: -4px;
+}
+
+.comment-box .comment-text{
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.review-form{
+    margin-top: 10px;
+}
+
+.review-form label{
+    display: inline-block;
+    font-style: italic;
+    width: 60px;
+}
+
+.review-form input[type='text'],
+.review-form input[type='email']{
+    width: 40%;
+    height: 25px;
+    border: 0px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.review-form input[type='text']:focus,
+.review-form input[type='email']:focus{
+    outline: none;
+    border-bottom: 1px solid #4d4d4d;
+}
+.review-form .rating{
+    display: inline-block;
+    width: 110px;
+    padding-left: 5px;
+    margin-top: 2px;
+}
+
+.review-form  .star {
+    margin: -4px;
+    font-size: 25px;
+    cursor: pointer;
+}
+    
+.review-form   .one {
+    color: rgb(238, 160, 81);
+}
+
+.review-form textarea{
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 1px solid #CCC;
+}
+
+.review-form textarea:focus{
+    outline: none;
+}
+
+.review-form .btn{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:540px) {
+    .review-form textarea{
+        width: 200px;
+    }
+}
