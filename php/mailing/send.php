@@ -32,10 +32,10 @@ class sendMail{
         $mail->isSMTP();                            // Set mailer to use SMTP 
         $mail->Host = 'smtp.gmail.com';           // Specify main and backup SMTP servers 
         $mail->SMTPAuth = true;                     // Enable SMTP authentication 
-        $mail->Username = 'dido01bandito@gmail.com';       // SMTP username 
-        $mail->Password = 'sphofrdpsrqenplw';         // SMTP password 
+        $mail->Username = '';       // SMTP username 
+        $mail->Password = '';         // SMTP password 
         $mail->SMTPSecure = 'ssl';                  // Enable TLS encryption, `ssl` also accepted 
-        $mail->Port = 465;                          // TCP port to connect to 
+        $mail->Port = '';                          // TCP port to connect to 
         
         // Sender info 
         $mail->setFrom('moto_krastev@gmail.com', 'moto_krastev'); 
