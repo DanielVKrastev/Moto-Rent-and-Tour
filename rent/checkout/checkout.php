@@ -2,7 +2,7 @@
 include("../../config/constants.php");
 require $_SERVER['DOCUMENT_ROOT']."/Moto_Krastev_Rent_&_Tour/vendor/autoload.php";
 
-$stripe_secret_key = "sk_test_51PT1p1G9KhEjrpY9tvEA5bIYzCAxxTBCmZQ9V7WtR6XtEOXXx8TQAemM297G9nwJFnKQVTm4VbuhJHMNsBD3JwKF00TMdgcckG";
+$stripe_secret_key = "sk_test_51PT1p1G....";
 
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
