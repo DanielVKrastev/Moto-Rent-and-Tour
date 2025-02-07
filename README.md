@@ -42,4 +42,4 @@ The **Admin Panel** is a restricted section of the website that allows administr
 > **Accessing the Admin Panel**:  
 > The admin section is accessible via a special **login page**, which requires administrator credentials.
 
-> Website URL: motokrastev.com
+> Website URL: [motokrastev.com](https://motokrastev.com/)
